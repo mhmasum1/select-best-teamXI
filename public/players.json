@@ -1,0 +1,167 @@
+[
+    {
+        "playerId": 1,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "All-Rounder",
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Slow Left-Arm Orthodox",
+        "price": 95000,
+        "rating": 9.2
+    },
+    {
+        "playerId": 2,
+        "name": "Tamim Iqbal",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Right-Arm Offbreak",
+        "price": 75000,
+        "rating": 8.5
+    },
+    {
+        "playerId": 3,
+        "name": "Mushfiqur Rahim",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Wicket-Keeper Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "None",
+        "price": 80000,
+        "rating": 8.7
+    },
+    {
+        "playerId": 4,
+        "name": "Taskin Ahmed",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Fast",
+        "price": 70000,
+        "rating": 8.3
+    },
+    {
+        "playerId": 5,
+        "name": "Mahmudullah Riyad",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "All-Rounder",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Offbreak",
+        "price": 72000,
+        "rating": 8.4
+    },
+    {
+        "playerId": 6,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Medium",
+        "price": 120000,
+        "rating": 9.7
+    },
+    {
+        "playerId": 7,
+        "name": "Rohit Sharma",
+        "country": "India",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Offbreak",
+        "price": 110000,
+        "rating": 9.5
+    },
+    {
+        "playerId": 8,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Legbreak",
+        "price": 105000,
+        "rating": 9.3
+    },
+    {
+        "playerId": 9,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Fast",
+        "price": 99000,
+        "rating": 9.0
+    },
+    {
+        "playerId": 10,
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "All-Rounder",
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Right-Arm Fast Medium",
+        "price": 115000,
+        "rating": 9.4
+    },
+    {
+        "playerId": 11,
+        "name": "Jos Buttler",
+        "country": "England",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Wicket-Keeper Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "None",
+        "price": 95000,
+        "rating": 8.9
+    },
+    {
+        "playerId": 12,
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Offbreak",
+        "price": 108000,
+        "rating": 9.6
+    },
+    {
+        "playerId": 13,
+        "name": "Shaheen Afridi",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Bowler",
+        "battingStyle": "Left-Handed",
+        "bowlingStyle": "Left-Arm Fast",
+        "price": 97000,
+        "rating": 9.1
+    },
+    {
+        "playerId": 14,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Batsman",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Right-Arm Offbreak",
+        "price": 102000,
+        "rating": 9.2
+    },
+    {
+        "playerId": 15,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/9mXtL9Vv/Shakib.jpg",
+        "role": "Bowler",
+        "battingStyle": "Right-Handed",
+        "bowlingStyle": "Left-Arm Fast Medium",
+        "price": 94000,
+        "rating": 8.8
+    }
+]
