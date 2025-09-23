@@ -8,13 +8,18 @@ const fetchPlayers = async () => {
   const res = await fetch('/players.json')
   return res.json()
 }
+
+const playerPromise = fetchPlayers();
+
 function App() {
   const [toggle, setToggle] = useState(true)
-  const playerPromise = fetchPlayers();
+  const [avaiableBalance, setAvailableBalance] = useState(600000)
+
 
   return (
+
     <>
-      <Navbar></Navbar>
+      <Navbar avaiableBalance={avaiableBalance}></Navbar>
       <div className='flex justify-between max-w-[1200px] mx-auto mt-4 items-center font-bold p-2'>
         <div>
           <h1>Available Players</h1>
@@ -29,7 +34,7 @@ function App() {
         toggle === true ? <Suspense fallback={<h3><span
           className="loading loading-spinner loading-xl"></span></h3>
         }>
-          <AvailablePlayers playerPromise={playerPromise}>  </AvailablePlayers>
+          <AvailablePlayers avaiableBalance={avaiableBalance} setAvailableBalance={setAvailableBalance} playerPromise={playerPromise}>  </AvailablePlayers>
         </Suspense> : <SelectedPlayers></SelectedPlayers>
       }
 
