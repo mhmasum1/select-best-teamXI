@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import userImg from '../../assets/user-1.png'
 import countryFlag from '../../assets/report-1.png'
 
-const PlayerCard = ({ player, setAvailableBalance, avaiableBalance }) => {
+const PlayerCard = ({ player, setAvailableBalance, avaiableBalance, purchasedPlayer, setPurchasedPlayed }) => {
 
     const [isSelected, setIsSelected] = useState(false)
 
     const handleSelect = (playerData) => {
+
         setIsSelected(true)
         if (avaiableBalance < playerData.price) {
             alert("Not enough coins for buying your choosen player")
@@ -14,7 +15,7 @@ const PlayerCard = ({ player, setAvailableBalance, avaiableBalance }) => {
         } else {
             setAvailableBalance(avaiableBalance - playerData.price)
         }
-
+        setPurchasedPlayed([...purchasedPlayer, playerData])
 
         //  balance er majhe jdi koma thake thle ba last a doller thake thle playerData.price.split("USD").join("").split(",").join("") kore korbo 
     }
