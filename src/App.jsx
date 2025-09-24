@@ -22,11 +22,11 @@ function App() {
       <Navbar avaiableBalance={avaiableBalance}></Navbar>
       <div className='flex justify-between max-w-[1200px] mx-auto mt-4 items-center font-bold p-2'>
         <div>
-          <h1>Available Players</h1>
+          <h1>{toggle === true ? "Available Players" : `Selected Player (${purchasedPlayer.length}/6)`}</h1>
         </div>
         <div>
           <button onClick={() => setToggle(true)} className={`${toggle === true ? "bg-[#E7FE29]" : ""} py-2 px-3 rounded-l-2xl`}>Available</button>
-          <button onClick={() => setToggle(false)} className={`${toggle === false ? "bg-[#E7FE29]" : ""} py-2 px-3 rounded-r-2xl`}>Selected <span>(0)</span></button>
+          <button onClick={() => setToggle(false)} className={`${toggle === false ? "bg-[#E7FE29]" : ""} py-2 px-3 rounded-r-2xl`}>Selected <span>({purchasedPlayer.length})</span></button>
         </div>
       </div>
 
